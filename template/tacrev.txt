@@ -1,0 +1,42 @@
+{"token": ["subject have title object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:title"}
+{"token": ["subject is the employee of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:employee_of"}
+{"token": ["subject have not relationship with object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "no_relation"}
+{"token": ["subject lives in the country object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:countries_of_residence"}
+{"token": ["subject has the high level member object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:top_members/employees"}
+{"token": ["subject has a headquarter in the country object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:country_of_headquarters"}
+{"token": ["subject has the religion object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:religion"}
+{"token": ["subject died because of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:cause_of_death"}
+{"token": ["subject is also known as object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:alternate_names"}
+{"token": ["subject was born in the city object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:city_of_birth"}
+{"token": ["subject lives in the city object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:cities_of_residence"}
+{"token": ["subject has a headquarter in the city object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:city_of_headquarters"}
+{"token": ["subject has the age object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:age"}
+{"token": ["subject died in the city object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:city_of_death"}
+{"token": ["subject has the nationality object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:origin"}
+{"token": ["subject is other family of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:other_family"}
+{"token": ["subject owns object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:subsidiaries"}
+{"token": ["subjectis the parent of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:children"}
+{"token": ["subject dissolved in object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:dissolved"}
+{"token": ["subject lives in the state or province object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:stateorprovinces_of_residence"}
+{"token": ["subject is the siblings of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:siblings"}
+{"token": ["subject is the spouse of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:spouse"}
+{"token": ["subject die in the state or province object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:stateorprovince_of_death"}
+{"token": ["subject has the alternate name object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:alternate_names"}
+{"token": ["subject is a member of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:member_of"}
+{"token": ["subject has the parent company object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:parents"}
+{"token": ["subject has the website object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:website"}
+{"token": ["subject has the parent object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:parents"}
+{"token": ["subject was founded in object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:founded"}
+{"token": ["subject has a headquarter in the state or province object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:stateorprovince_of_headquarters"}
+{"token": ["subject studied in object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:schools_attended"}
+{"token": ["subject has the member object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:members"}
+{"token": ["subject has political affiliation with object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:political/religious_affiliation"}
+{"token": ["subject has birthday on object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:date_of_birth"}
+{"token": ["subject was founded by object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:founded_by"}
+{"token": ["subject has shares hold in object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:shareholders"}
+{"token": ["subject has the number of employees object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "org:number_of_employees/members"}
+{"token": ["subject was born in the country object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:country_of_birth"}
+{"token": ["subject was born in the state or province object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:stateorprovince_of_birth"}
+{"token": ["subject is convicted of object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:charges"}
+{"token": ["subject died in the date object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:date_of_death"}
+{"token": ["subject died in the country object."], "h": {"name": "subject"}, "t": {"name": "object"}, "relation": "per:country_of_death"}

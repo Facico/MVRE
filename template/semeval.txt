@@ -1,0 +1,19 @@
+{"token": ["whole is comprised of components."], "h": {"name": "whole"}, "t": {"name": "components"}, "relation": "Component-Whole(e2,e1)"}
+{"token": ["A and B are not related", "."], "h": {"name": "A"}, "t": {"name": "B"}, "relation": "Other"}
+{"token": ["agency using the instrument."], "h": {"name": "agency"}, "t": {"name": "instrument"}, "relation": "Instrument-Agency(e2,e1)"}
+{"token": ["member is in the collection."], "h": {"name": "member"}, "t": {"name": "collection"}, "relation": "Member-Collection(e1,e2)"}
+{"token": ["effect is caused by cause."], "h": {"name": "effect"}, "t": {"name": "cause"}, "relation": "Cause-Effect(e2,e1)"}
+{"token": ["the target of entity is destination ."], "h": {"name": "entity"}, "t": {"name": "destination"}, "relation": "Entity-Destination(e1,e2)"}
+{"token": ["content is in container."], "h": {"name": "content"}, "t": {"name": "container"}, "relation": "Content-Container(e1,e2)"}
+{"token": ["message is about the topic."], "h": {"name": "message"}, "t": {"name": "topic"}, "relation": "Message-Topic(e1,e2)"}
+{"token": ["producer make out a product."], "h": {"name": "producer"}, "t": {"name": "product"}, "relation": "Product-Producer(e2,e1)"}
+{"token": ["collection is a set of members."], "h": {"name": "collection"}, "t": {"name": "members"}, "relation": "Member-Collection(e2,e1)"}
+{"token": ["entity derived from the origin."], "h": {"name": "entity"}, "t": {"name": "origin"}, "relation": "Entity-Origin(e1,e2)"}
+{"token": ["cause that causes to effect."], "h": {"name": "cause"}, "t": {"name": "effect"}, "relation": "Cause-Effect(e1,e2)"}
+{"token": ["component is in the whole."], "h": {"name": "component"}, "t": {"name": "whole"}, "relation": "Component-Whole(e1,e2)"}
+{"token": ["topic is described through message."], "h": {"name": "topic"}, "t": {"name": "message"}, "relation": "Message-Topic(e2,e1)"}
+{"token": ["product is made by producer."], "h": {"name": "product"}, "t": {"name": "producer"}, "relation": "Product-Producer(e1,e2)"}
+{"token": ["origin is the source of entity."], "h": {"name": "origin"}, "t": {"name": "entity"}, "relation": "Entity-Origin(e2,e1)"}
+{"token": ["container is containing the content."], "h": {"name": "container"}, "t": {"name": "content"}, "relation": "Content-Container(e2,e1)"}
+{"token": ["instrument is used by agency."], "h": {"name": "instrument"}, "t": {"name": "agency"}, "relation": "Instrument-Agency(e1,e2)"}
+{"token": ["destination is the target of entity."], "h": {"name": "destination"}, "t": {"name": "entity"}, "relation": "Entity-Destination(e2,e1)"}
