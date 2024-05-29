@@ -1,6 +1,7 @@
 # MVRE
 
 Code for the AAAI 2024 long paper "[Improving Low-resource Prompt-based Relation Representation with Multi-view Decoupling Learning](https://arxiv.org/pdf/2312.17267.pdf)"
+
 The name of the release is "Enhancing Low-Resource Relation Representations through Multi-View Decoupling"
 
 # Model Architecture
