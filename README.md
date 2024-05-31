@@ -1,8 +1,6 @@
 # MVRE
 
-Code for the AAAI 2024 long paper "[Improving Low-resource Prompt-based Relation Representation with Multi-view Decoupling Learning](https://arxiv.org/pdf/2312.17267.pdf)"
-
-The name of the release is "Enhancing Low-Resource Relation Representations through Multi-View Decoupling"
+Code for the AAAI 2024 long paper "[Enhancing Low-Resource Relation Representations through Multi-View Decoupling](https://arxiv.org/pdf/2312.17267.pdf)"
 
 # Model Architecture
 
@@ -58,19 +56,6 @@ Part of our code is borrowed from code of [RetrievalRE](https://github.com/zjunl
 
 # Papers for the Project & How to Cite
 If you use or extend our work, please cite the paper as follows:
-
-```bibtex
-@misc{fan2024improving,
-      title={Improving Low-resource Prompt-based Relation Representation with Multi-view Decoupling Learning}, 
-      author={Chenghao Fan and Wei Wei and Xiaoye Qu and Zhenyi Lu and Wenfeng Xie and Yu Cheng and Dangyang Chen},
-      year={2024},
-      eprint={2312.17267},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
-
-or
 
 ```bibtex
 @article{Fan_Wei_Qu_Lu_Xie_Cheng_Chen_2024,
