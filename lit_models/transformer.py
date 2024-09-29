@@ -110,11 +110,7 @@ class BertLitModel(BaseLitModel):
                     for i, idx in enumerate(label_word_idx):
                         word_embeddings.weight[continous_label_word[i]] = word_embeddings.weight[idx][-1]
                 else:
-                    #import pdb;pdb.set_trace()
-                    #"/home/fch/multi-viewer-prompt/dataset/semeval/k-shot/train4.txt"
-                    #"/home/fch/multi-viewer-prompt/dataset/tacred/k-shot/train.txt"
-                    #"/home/fch/multi-viewer-prompt/dataset/tacrev/k-shot/train.txt"
-                    sample_file = "./template/semeval.txt" #"/home/fanchenghao/multi-viewer-prompt/dataset/tacred/k-shot/train3.txt" #"/home/fanchenghao/multi-viewer-prompt/dataset/semeval/k-shot/train4.txt" #os.path.join(self.args.data_dir, "train.txt") #"/home/fanchenghao/multi-viewer-prompt/dataset/semeval/k-shot/train3.txt"
+                    sample_file = "./template/semeval.txt"
                     if self.args.data_type == "tacrev":
                          sample_file = "./template/tacrev.txt"
                     elif self.args.data_type == "tacred":

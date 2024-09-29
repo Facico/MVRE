@@ -129,7 +129,6 @@ cache/
 
 k-shot/
 
-dataset/
 draw_pic/
 
 faiss_dump.index
