@@ -24,5 +24,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py --max_epochs=20  --num_workers=8 \
     --pipeline_init \
     --use_contrastive \
     --MVRE \
-    --multi_viewer \
     --multi_viewer_num 3

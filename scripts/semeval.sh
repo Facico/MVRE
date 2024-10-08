@@ -1,6 +1,6 @@
-kshot=1-5
+kshot=1-1
 
-CUDA_VISIBLE_DEVICES=0 python main.py --max_epochs=40  --num_workers=8 \
+CUDA_VISIBLE_DEVICES=7 python main.py --max_epochs=40  --num_workers=8 \
     --model_name_or_path roberta-large \
     --config roberta-large\
     --accumulate_grad_batches 1 \
@@ -23,5 +23,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py --max_epochs=40  --num_workers=8 \
     --pipeline_init \
     --output_dir output/semeval/k-shot/$kshot \
     --MVRE \
-    --multi_viewer \
     --multi_viewer_num 3

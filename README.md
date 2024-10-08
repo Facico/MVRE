@@ -8,7 +8,6 @@ Code for the AAAI 2024 long paper "[Enhancing Low-Resource Relation Representati
 <img src="pic/model.png" width="75%" height="75%" />
 </div>
 
-The inference procedure of our RetrievalRE.
 
 
 # Requirements
@@ -26,7 +25,7 @@ pip install -r requirements.txt
 Use the comand below to get the answer words to use in the training.
 
 ```shell
-python get_label_word.py --model_name_or_path bert-large-uncased  --dataset_name semeval
+python get_label_word.py --model_name_or_path roberta-large  --dataset_name semeval
 ```
 
 The `{answer_words}.pt`will be saved in the dataset, you need to assign the `model_name_or_path` and `dataset_name` in the `get_label_word.py`.
@@ -36,10 +35,10 @@ The `{answer_words}.pt`will be saved in the dataset, you need to assign the `mod
 Download the data first, and put it to `dataset` folder. Run the comand below, and get the few shot dataset.
 
 ```shell
-python generate_k_shot.py --data_dir ./dataset --k 8 --dataset semeval
+python generate_k_shot.py --data_dir ./dataset --k 5 --dataset semeval
 cd dataset
 cd semeval
-cp rel2id.json val.txt test.txt ./k-shot/8-1
+cp rel2id.json val.txt test.txt ./k-shot/5-1
 ```
 You need to modify the `k` and `dataset` to assign k-shot and dataset. Here we default seed as 1,2,3,4,5 to split each k-shot, you can revise it in the `generate_k_shot.py`
 

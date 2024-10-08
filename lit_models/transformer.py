@@ -220,8 +220,6 @@ class BertLitModel(BaseLitModel):
 
 
     def validation_step(self, batch, batch_idx):  # pylint: disable=unused-argument
-        if self.current_epoch <=0:#not in [10, 20, 30, 39]:
-            return {}
         input_ids, attention_mask, labels, _ = batch
         result = self.model(input_ids, attention_mask, return_dict=True, output_hidden_states=True)
         logits = result.logits
@@ -237,13 +235,9 @@ class BertLitModel(BaseLitModel):
             
         else:
             logits1, _ = self.pvp(logits, input_ids, hidden_state=result.hidden_states[-1])
-            logits2, _ = self.pvp(logits, input_ids, hidden_state=result.hidden_states[-1])
-            logi1ts3, _ = self.pvp(logits, input_ids, hidden_state=result.hidden_states[-3])
-        logits = logits1# + contrastive_loss #0.6*logits1 + 0.3*logits2 + 0.1*logits3
-        #logits2 = self.fusion_sum_mask(input_ids, result.hidden_states[-3])
-        loss1 = self.loss_fn(logits, labels)
-        #loss2 = self.loss_fn(logits2, labels)
-        loss = loss1# + loss2
+        logits = logits1
+
+        loss = self.loss_fn(logits, labels)
         self.log("Eval/loss", loss)
         return {"eval_logits": logits.detach().cpu().numpy(), "eval_labels": labels.detach().cpu().numpy(), "inputs": input_ids.detach().cpu().numpy()}
     
